@@ -16,8 +16,11 @@ public class StackDemo {
 		System.out.println(stack.pop());
 		
 		stack.push(10);
+		stack.push(30);
 		
+		stack.unShift(9);
 		System.out.println(stack.pop());
+
 
 	}
 
