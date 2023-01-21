@@ -30,6 +30,11 @@ class Box{
 	int FindArea() { // Method To Find Area of the given value's
 		return length * width * height;
 	}
+	
+//	void protected finalize() {
+//		Box.FindArea();
+//	}
+	
 }
 
 public class MethodsCreation {
