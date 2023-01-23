@@ -34,6 +34,12 @@ public class AccessControl {
 		
 		privatetest();
 		publictest();
+		
+		/* Encapsulation is nothing but a data protection from accesser's, 
+		 * in one class we are creating the variable's and methods some method's are in private and 
+		 * some method's are in public so the private methods are not able to directly access through the object 
+		 * but if you want to access those private methods from outside of the object you can access through the 
+		 * public method's so the public method's are the gateway of accessing the private classes. */
 
 	}
 
